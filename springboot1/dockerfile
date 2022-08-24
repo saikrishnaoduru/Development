@@ -1,4 +1,0 @@
-FROM java:8
-EXPOSE 8080
-ADD target/springboot1.jar springboot1.jar
-ENTRYPOINT ["java","-jar","springboot1.jar"]
